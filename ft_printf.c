@@ -6,7 +6,7 @@
 /*   By: mlouati <mlouati@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 15:28:15 by mlouati           #+#    #+#             */
-/*   Updated: 2023/12/10 23:20:59 by mlouati          ###   ########.fr       */
+/*   Updated: 2023/12/11 20:47:49 by mlouati          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,5 +55,6 @@ int	ft_printf(const char *str, ...)
 			i += 2;
 		}
 	}
+	va_end(args);
 	return (count);
 }
